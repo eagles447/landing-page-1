@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.first-section{
+    background-color: #1f2937;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    /*this is the very top of the website header logo and links*/
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-left, .navbar-right{
+    display: flex;
+    width: 50%; /* this splits up the top bar 50% between both classes*/
+    justify-content: center;
+    align-items: center;
+}
