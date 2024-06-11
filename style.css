@@ -121,3 +121,28 @@ h2{
     justify-content: center;
     font-size: 18px;
 }
+/*end of second section*/
+
+.third-section{
+
+    display: flex;
+    background-color: #E5E7EB;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.p-third{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F3927;
+    text-align: center;
+}
+
+.thor-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+}
