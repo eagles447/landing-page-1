@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0%;
     padding: 0%;
@@ -49,9 +51,10 @@ color: #F9FAF8;
 .content{
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
 
-.content-left, .content-right{
+.content-right{
     display: flex;
     width: 50%;
     justify-content: center;
@@ -59,4 +62,62 @@ color: #F9FAF8;
     flex-direction: column;
 
 }
+.content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 40px;
+}
+img{
+    margin: 50px;
+    
+}
 
+.p-first{
+    
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-first-section{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px; /* This rounds the selection*/
+    border-color: black 5px;
+}
+
+/* end of first section*/
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.row-of-blue-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+    align-items: center;
+}
+
+.box-blue{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+
+}
+
+.p-second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
