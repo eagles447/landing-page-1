@@ -146,3 +146,67 @@ h2{
     justify-content: flex-end;
     margin-right: 300px;
 }
+
+/*end of third section*/
+
+.last-div{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container{
+    background-color: #84ade6;
+    width: 75%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.last-p{
+    color: white;
+}
+
+H4{
+    color: white;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.last-button{
+    background-color: #e158d3;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-color:  blue;
+    border-radius: 10px;
+}
+/*end of fourth section*/
+
+.bottom{
+    background-color: rgb(22, 22, 24);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final{
+    font-size: 10px;
+    color: white;
+    
+}
